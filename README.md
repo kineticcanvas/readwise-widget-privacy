@@ -1,179 +1,89 @@
 # ReadwiseWidget Privacy Policy
 
-Privacy policy for ReadwiseWidget Android application, hosted on Vercel.
+Official privacy policy for **ReadwiseWidget** - an Android home screen widget that displays your Readwise highlights.
 
-## 🚀 Deployment
+🔗 **Live Privacy Policy:** [https://privacy.rw.kcd.works](https://privacy.rw.kcd.works)
 
-### Prerequisites
-- Node.js 24.x
-- npm 10.0.0 or higher
-- Vercel account (free tier works)
-- GitHub repository at `https://github.com/kineticcanvas/readwise-widget-privacy`
+---
 
-### Local Development
+## About ReadwiseWidget
 
-```bash
-# Install dependencies
-npm install
+ReadwiseWidget is an Android application that brings your [Readwise](https://readwise.io/) highlights directly to your home screen. Stay inspired with your favorite book quotes, article snippets, and reading highlights - all displayed in a beautifully designed Material 3 widget.
 
-# Run development server
-npm run dev
-# Open http://localhost:3000
-```
+**Key Features:**
+- 📚 Display Readwise highlights on your Android home screen
+- 🎨 Material 3 design with dynamic theming
+- 🔐 Hardware-backed encryption (AES-256-GCM)
+- 🌙 Dark mode support
+- ⚡ Offline access with local caching
+- 🔄 Automatic background sync
+- ✨ Zero analytics, zero tracking
 
-### Deploy to Vercel
+**Download:**
+- 📱 **Google Play Store:** [Coming Soon](#) _(Not yet published)_
 
-#### Option 1: Automatic Deployment (Recommended)
+---
 
-1. **Push to GitHub:**
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit: Privacy policy Next.js app"
-   git branch -M main
-   git remote add origin https://github.com/kineticcanvas/readwise-widget-privacy.git
-   git push -u origin main
-   ```
+## Privacy Commitment
 
-2. **Connect to Vercel:**
-   - Log in to https://vercel.com
-   - Click "Add New Project"
-   - Select GitHub repository: `kineticcanvas/readwise-widget-privacy`
-   - Grant Vercel access to private repo if needed
-   - Configure project:
-     - **Framework Preset:** Next.js (auto-detected)
-     - **Root Directory:** `./`
-     - **Build Command:** `npm run build`
-     - **Output Directory:** `out`
-   - Click "Deploy"
+ReadwiseWidget is built with privacy as a core principle:
 
-3. **Configure Custom Domain:**
-   - Go to Vercel project → Settings → Domains
-   - Add custom domain: `privacy.rw.kcd.works`
-   - Configure DNS at your provider:
-     ```
-     Type: CNAME
-     Name: privacy.rw.kcd.works
-     Value: cname.vercel-dns.com
-     TTL: 3600
-     ```
-   - Vercel automatically provisions Let's Encrypt SSL certificate
+- ✅ **Zero Tracking:** No analytics, no advertising, no data collection
+- ✅ **Local Storage:** All data stored encrypted on your device
+- ✅ **Hardware Encryption:** API tokens protected by Android KeyStore (AES-256-GCM)
+- ✅ **Minimal Permissions:** Only requests what's necessary
+- ✅ **Open Privacy Policy:** Transparent about data usage
 
-#### Option 2: Manual Deployment
+**Read our full privacy policy:** [https://privacy.rw.kcd.works](https://privacy.rw.kcd.works)
 
-```bash
-# Install Vercel CLI
-npm i -g vercel
+---
 
-# Deploy to production
-vercel --prod
-```
+## Legal Compliance
 
-### Automatic Deployments
+Our privacy policy complies with:
+- 🇪🇺 **GDPR** (General Data Protection Regulation)
+- 🇺🇸 **CCPA/CPRA** (California Consumer Privacy Act)
+- 📱 **Google Play Data Safety** requirements
 
-Once connected to GitHub, Vercel automatically deploys:
-- **Production:** Every push to `main` branch → https://privacy.rw.kcd.works
-- **Preview:** Every pull request → unique preview URL
+---
 
-## 📝 Content Updates
+## Contact
 
-1. **Edit Privacy Policy:**
-   - Modify `src/app/page.tsx`
-   - Update `lastUpdated` date at the top of the file
-   - Update relevant sections
+**Company:** Kinetic Canvas Development
+**Website:** [https://www.kcd.works](https://www.kcd.works)
+**Email:** [support@kcd.works](mailto:support@kcd.works)
+**Response Time:** Within 48 hours
 
-2. **Commit and Push:**
-   ```bash
-   git add .
-   git commit -m "Update privacy policy: [description]"
-   git push
-   ```
+For privacy-specific inquiries, please email us at [support@kcd.works](mailto:support@kcd.works) with "Privacy" in the subject line.
 
-3. **Verify Deployment:**
-   - Vercel automatically deploys changes
-   - Check https://privacy.rw.kcd.works after ~2 minutes
+---
 
-## 🛠️ Technology Stack
+## Technical Information
 
+This privacy policy is hosted on **Vercel** using:
 - **Framework:** Next.js 14 with TypeScript
 - **Hosting:** Vercel (static site generation)
-- **SSL:** Let's Encrypt (automatic via Vercel)
-- **Domain:** privacy.rw.kcd.works
-- **Build Output:** Static HTML (no server runtime)
+- **SSL:** Let's Encrypt (automatic HTTPS)
+- **Security Headers:** CSP, HSTS, X-Frame-Options
 
-## 📦 Build and Export
+**Repository:** [github.com/kineticcanvas/readwise-widget-privacy](https://github.com/kineticcanvas/readwise-widget-privacy)
 
-```bash
-# Build static site
-npm run build
+---
 
-# Output directory: ./out
-# Contains static HTML/CSS/JS ready for deployment
-```
-
-## 🧪 Testing
-
-```bash
-# Build and test static export
-npm run build
-
-# Run development server
-npm run dev
-```
-
-## 🔒 Security Features
-
-- HTTPS-only (enforced by Vercel)
-- Security headers configured in `vercel.json`:
-  - `X-Content-Type-Options: nosniff`
-  - `X-Frame-Options: DENY`
-  - `X-XSS-Protection: 1; mode=block`
-  - `Strict-Transport-Security: max-age=31536000`
-  - `Content-Security-Policy: default-src 'self'`
-
-## 📋 File Structure
-
-```
-readwise-widget-privacy/
-├── package.json
-├── next.config.js
-├── tsconfig.json
-├── vercel.json
-├── README.md
-├── LICENSE
-├── .gitignore
-├── public/
-│   └── favicon.ico
-└── src/
-    ├── app/
-    │   ├── layout.tsx          # Root layout with SEO metadata
-    │   ├── page.tsx            # Main privacy policy page
-    │   └── globals.css         # Global styles with dark mode
-    └── components/
-        ├── PrivacySection.tsx  # Reusable section component
-        ├── TableOfContents.tsx # Auto-generated TOC
-        └── ContactInfo.tsx     # Contact information
-```
-
-## ✅ Acceptance Criteria
-
-- [x] Privacy policy accessible at `https://privacy.rw.kcd.works`
-- [x] All 15 required sections included (GDPR, CCPA, Play Store)
-- [x] Mobile-responsive design (320px-1920px)
-- [x] Dark mode support via CSS variables
-- [x] HTTPS with Let's Encrypt certificate
-- [x] Static export (no server runtime)
-- [x] TypeScript type safety
-- [x] WCAG 2.1 Level AA accessible
-- [x] 6th grade reading level
-
-## 📄 License
+## License
 
 © 2025 Kinetic Canvas Development. All rights reserved.
 
-## 📧 Contact
+This privacy policy is publicly accessible and may be referenced by users, regulators, and third parties as needed to understand how ReadwiseWidget handles user data.
 
-For questions about this privacy policy or deployment:
-- **Email:** kieran@kcd.works
-- **Developer:** Kieran (Kinetic Canvas Development)
-- **Response Time:** Within 48 hours
+---
+
+## Updates
+
+**Last Updated:** January 26, 2025
+
+We will update this privacy policy as needed to reflect changes in our data practices or legal requirements. Material changes will be communicated through the app and this website.
+
+---
+
+**Questions?** Contact us at [support@kcd.works](mailto:support@kcd.works)

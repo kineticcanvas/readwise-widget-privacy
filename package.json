@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "Privacy policy for ReadwiseWidget Android application",
-  "author": "Kieran (Kinetic Canvas Development)",
+  "author": "Kinetic Canvas Development",
   "license": "MIT",
   "scripts": {
     "dev": "next dev",

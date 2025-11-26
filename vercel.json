@@ -1,14 +1,4 @@
 {
-  "version": 2,
-  "buildCommand": "npm run build",
-  "outputDirectory": "out",
-  "devCommand": "npm run dev",
-  "installCommand": "npm install",
-  "framework": "nextjs",
-  "regions": ["iad1"],
-  "git": {
-    "deploymentEnabled": true
-  },
   "headers": [
     {
       "source": "/(.*)",
