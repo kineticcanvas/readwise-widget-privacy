@@ -49,12 +49,12 @@ Our privacy policy complies with:
 
 ## Contact
 
-**Company:** Kinetic Canvas Development
+**Company:** Kinetic Canvas Digital, LLC
 **Website:** [https://www.kcd.works](https://www.kcd.works)
-**Email:** [support@kcd.works](mailto:support@kcd.works)
+**Email:** [corporate@kcd.works](mailto:corporate@kcd.works)
 **Response Time:** Within 48 hours
 
-For privacy-specific inquiries, please email us at [support@kcd.works](mailto:support@kcd.works) with "Privacy" in the subject line.
+For privacy-specific inquiries, please email us at [corporate@kcd.works](mailto:corporate@kcd.works) with "Privacy" in the subject line.
 
 ---
 
@@ -72,7 +72,7 @@ This privacy policy is hosted on **Vercel** using:
 
 ## License
 
-© 2025 Kinetic Canvas Development. All rights reserved.
+© 2025 Kinetic Canvas Digital, LLC. All rights reserved.
 
 This privacy policy is publicly accessible and may be referenced by users, regulators, and third parties as needed to understand how ReadwiseWidget handles user data.
 
@@ -86,4 +86,4 @@ We will update this privacy policy as needed to reflect changes in our data prac
 
 ---
 
-**Questions?** Contact us at [support@kcd.works](mailto:support@kcd.works)
+**Questions?** Contact us at [corporate@kcd.works](mailto:corporate@kcd.works)

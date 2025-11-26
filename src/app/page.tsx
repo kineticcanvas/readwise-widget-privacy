@@ -12,7 +12,7 @@ export default function PrivacyPolicyPage() {
         <h1>Privacy Policy</h1>
         <p className="last-updated">Last Updated: {lastUpdated}</p>
         <p className="intro">
-          Kinetic Canvas Development (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is committed to
+          Kinetic Canvas Digital, LLC (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is committed to
           protecting your privacy. This Privacy Policy explains how our
           ReadwiseWidget Android application collects, uses, and safeguards
           your information.
@@ -259,8 +259,8 @@ export default function PrivacyPolicyPage() {
       </PrivacySection>
 
       <footer>
-        <p>&copy; {new Date().getFullYear()} Kinetic Canvas Development. All rights reserved.</p>
-        <p><a href="mailto:kieran@kcd.works">Contact Us</a></p>
+        <p>&copy; {new Date().getFullYear()} Kinetic Canvas Digital, LLC. All rights reserved.</p>
+        <p><a href="mailto:corporate@kcd.works">Contact Us</a></p>
       </footer>
     </main>
   );

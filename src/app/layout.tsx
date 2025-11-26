@@ -6,8 +6,7 @@ export const metadata: Metadata = {
   title: 'Privacy Policy - ReadwiseWidget',
   description: 'Privacy policy for ReadwiseWidget Android application. Learn how we protect your data with hardware-backed encryption and zero tracking.',
   keywords: ['privacy policy', 'ReadwiseWidget', 'Android', 'GDPR', 'CCPA', 'data protection'],
-  authors: [{ name: 'Kieran', url: 'mailto:kieran@kcd.works' }],
-  creator: 'Kinetic Canvas Development',
+  creator: 'Kinetic Canvas Digital, LLC',
   openGraph: {
     title: 'Privacy Policy - ReadwiseWidget',
     description: 'Learn how ReadwiseWidget protects your data with hardware-backed encryption and zero tracking.',
