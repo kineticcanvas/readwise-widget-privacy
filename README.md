@@ -5,8 +5,8 @@ Privacy policy for ReadwiseWidget Android application, hosted on Vercel.
 ## 🚀 Deployment
 
 ### Prerequisites
-- Node.js 18.0.0 or higher
-- npm 9.0.0 or higher
+- Node.js 24.x
+- npm 10.0.0 or higher
 - Vercel account (free tier works)
 - GitHub repository at `https://github.com/kineticcanvas/readwise-widget-privacy`
 

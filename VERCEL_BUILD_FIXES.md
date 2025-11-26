@@ -80,12 +80,14 @@ that will automatically upgrade when a new major Node.js Version is released.
 - Vercel recommends pinning to major version
 
 **Fix Applied:**
-- Changed `"node": ">=18.0.0"` to `"node": "18.x"`
-- Pins to Node.js 18 LTS (any minor/patch version)
-- Prevents automatic major version upgrades
-- Follows Vercel best practices
+- Changed `"node": ">=18.0.0"` to `"node": "24.x"`
+- Updated to Node.js 24.x as required by Vercel
+- Node.js 18.x is discontinued on Vercel platform
+- Also updated npm requirement to `>=10.0.0`
 
 **File Changed:** `package.json`
+
+**Update (Nov 26, 2025):** Initial fix attempted Node.js 18.x, but Vercel now requires Node.js 24.x as 18.x is discontinued.
 
 ---
 
@@ -103,8 +105,9 @@ that will automatically upgrade when a new major Node.js Version is released.
    - Reason: Next.js 14.2+ API requirement
 
 3. **`package.json`**
-   - Changed: `"node": ">=18.0.0"` → `"node": "18.x"`
-   - Reason: Prevent automatic major version upgrades
+   - Changed: `"node": ">=18.0.0"` → `"node": "24.x"`
+   - Changed: `"npm": ">=9.0.0"` → `"npm": ">=10.0.0"`
+   - Reason: Node.js 18.x discontinued on Vercel, 24.x now required
 
 ---
 
@@ -175,5 +178,6 @@ After these fixes, Vercel build should:
 
 **Fixes applied:** November 26, 2025
 **Next.js version:** 14.2.33
-**Node.js version:** 18.x (LTS)
+**Node.js version:** 24.x (updated from 18.x which is discontinued on Vercel)
+**npm version:** 10.0.0+
 **Deployment platform:** Vercel
