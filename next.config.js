@@ -8,9 +8,7 @@ const nextConfig = {
   // Disable x-powered-by header for security
   poweredByHeader: false,
   // Optimize for production
-  reactStrictMode: true,
-  // Ensure static export compatibility
-  distDir: 'out'
+  reactStrictMode: true
 }
 
 module.exports = nextConfig
