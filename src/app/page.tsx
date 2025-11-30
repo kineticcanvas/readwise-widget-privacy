@@ -4,7 +4,7 @@ import { TableOfContents } from '@/components/TableOfContents';
 import { ContactInfo } from '@/components/ContactInfo';
 
 export default function PrivacyPolicyPage() {
-  const lastUpdated = "January 26, 2025";
+  const lastUpdated = "November 30, 2025";
 
   return (
     <main className="privacy-policy">

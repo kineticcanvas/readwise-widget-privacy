@@ -52,7 +52,6 @@ Our privacy policy complies with:
 **Company:** Kinetic Canvas Digital, LLC
 **Website:** [https://www.kcd.works](https://www.kcd.works)
 **Email:** [corporate@kcd.works](mailto:corporate@kcd.works)
-**Response Time:** Within 48 hours
 
 For privacy-specific inquiries, please email us at [corporate@kcd.works](mailto:corporate@kcd.works) with "Privacy" in the subject line.
 
@@ -80,7 +79,7 @@ This privacy policy is publicly accessible and may be referenced by users, regul
 
 ## Updates
 
-**Last Updated:** January 26, 2025
+**Last Updated:** November 30, 2025
 
 We will update this privacy policy as needed to reflect changes in our data practices or legal requirements. Material changes will be communicated through the app and this website.
 
