@@ -49,7 +49,7 @@ Our privacy policy complies with:
 
 ## Contact
 
-**Company:** Kinetic Canvas Digital, LLC
+**Company:** Kinetic Canvas Digital, LLC (a Georgia, USA limited liability company)
 **Website:** [https://www.kcd.works](https://www.kcd.works)
 **Email:** [corporate@kcd.works](mailto:corporate@kcd.works)
 
